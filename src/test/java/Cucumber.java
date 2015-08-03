@@ -127,7 +127,7 @@ public class Cucumber extends TestCase{
 		ride.setPhnNo("1234567890");
 		ride.setSrc("Start");
 		ride.setDest("Dest");
-		ride.setStartTime("10:30");
+		ride.setStartTime("110:30");
 		ride.setEmail("abc@ca.com");
 	}
 
