@@ -34,7 +34,7 @@ public class RidePosting {
 				return "Invalid Source";
 			else if(ride.getDest().equals(""))
 				return "Invalid Destination";
-			else if(!ride.getStartTime().matches("[01]?[0-9]|2[0-3]:[0-5][0-9]"))
+			else if(!ride.getStartTime().matches("([01]?[0-9]|2[0-3]):[0-5][0-9]"))
 				return "Invalid Time";
 			else return "post is successful";
 		}
